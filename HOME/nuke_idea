@@ -1,0 +1,12 @@
+#!/bin/bash
+set -e -o pipefail
+
+
+killall idea || echo No IDEA running
+sleep 5
+killall -9 idea || echo No IDEA running
+sleep 2
+
+#rm -rf ~/.config/JetBrains
+rm -rf ~/.cache/JetBrains
+
