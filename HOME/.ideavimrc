@@ -50,6 +50,8 @@ nmap <leader>e <Action>(ActivateProjectToolWindow)
 nmap <leader>sc <Action>(GotoClass)
 nmap <leader>l <Action>(WelcomeScreen.Plugins)
 nmap <leader>db <Action>(ToggleLineBreakpoint)
+nmap <leader>sT <Action>(ActivateTODOToolWindow)
+nmap <leader>gI <Action>(GotoImplementation)
 
 set nerdtree
 set easymotion
