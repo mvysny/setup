@@ -45,6 +45,8 @@ nmap ]d <Action>(GotoNextError)
 nmap ]d <Action>(GotoNextError)
 nmap <leader>ca <Action>(ShowIntentionActions)
 nmap <leader>qS <Action>(RecentProjectListGroup)
+nmap <leader>e <Action>(ActivateProjectToolWindow)
+nmap <leader>sc <Action>(GotoClass)
 
 set nerdtree
 set easymotion
