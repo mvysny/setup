@@ -52,6 +52,8 @@ nmap <leader>l <Action>(WelcomeScreen.Plugins)
 nmap <leader>db <Action>(ToggleLineBreakpoint)
 nmap <leader>sT <Action>(ActivateTODOToolWindow)
 nmap <leader>gI <Action>(GotoImplementation)
+vmap gc <Action>(CommentByLineComment)
+nmap gc <Action>(CommentByLineComment)
 
 set nerdtree
 set easymotion
