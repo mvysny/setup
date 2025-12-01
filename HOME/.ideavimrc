@@ -1,0 +1,40 @@
+# In IDEA, you need to install two plugins. Go to Settings / plugins and
+# install these plugins from the Marketplace:
+#
+# - IdeaVim
+# - AceJump
+
+Plug 'preservim/nerdtree'
+Plug 'easymotion/vim-easymotion'
+
+set number relativenumber
+set ideajoin
+
+let mapleader = " "
+
+nmap <leader>gg <Action>(Tool_External Tools_lazygit)
+nmap <leader><leader> <Action>(GotoFile)
+nmap <C-/> <Action>(ActivateTerminalToolWindow)
+nmap <leader>bd <Action>(CloseEditor)
+nmap <leader>sS <Action>(GotoSymbol)
+imap <C-s> <Esc>:w<CR>
+nmap <leader>sk <Action>(GotoAction)
+nmap <leader>/ <Action>(FindInPath)
+nmap <leader>cf <Action>(ReformatCode)
+nmap <leader>cr <Action>(RenameElement)
+nmap <leader>qq <Action>(Exit)
+nmap <leader>` <Action>(RecentFiles)
+nmap <leader>fr <Action>(RecentFiles)
+nmap ]e <Action>(GotoNextError)
+nmap [e <Action>(GotoPreviousError)
+nmap ]w <Action>(GotoNextError)
+nmap [w <Action>(GotoPreviousError)
+nmap ]d <Action>(GotoNextError)
+nmap ]d <Action>(GotoNextError)
+nmap <leader>ca <Action>(ShowIntentionActions)
+
+set nerdtree
+set easymotion
+
+nmap s <Action>(AceAction)
+vmap s <Action>(AceAction)

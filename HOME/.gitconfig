@@ -1,0 +1,19 @@
+[user]
+  name = Martin Vysny
+  email = mavi@vaadin.com
+[alias]
+  ci = commit
+  st = status
+[color]
+  ui = auto
+[push]
+  default = current
+  followTags = true
+  autoSetupRemote = true
+[core]
+  editor = vim
+  autocrlf = input
+[merge]
+  conflictstyle = diff3
+[pull]
+  rebase = true
