@@ -3,6 +3,18 @@
 #
 # - IdeaVim
 # - AceJump
+#
+# To enable support for lazygit:
+# - `sudo apt install lazygit`
+# - Go to "Settings / Tools / External tools"
+# - Add tool:
+#   - Name: lazygit
+#   - Program: alacritty
+#   - Arguments: -e lazygit
+#   - Working directory: $ProjectFileDir$
+#   - Advanced options: Synchronize files after execution
+
+# Mimic LazyVim
 
 Plug 'preservim/nerdtree'
 Plug 'easymotion/vim-easymotion'
