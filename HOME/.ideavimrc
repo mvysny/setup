@@ -47,6 +47,7 @@ nmap <leader>ca <Action>(ShowIntentionActions)
 nmap <leader>qS <Action>(RecentProjectListGroup)
 nmap <leader>e <Action>(ActivateProjectToolWindow)
 nmap <leader>sc <Action>(GotoClass)
+nmap <leader>l <Action>(WelcomeScreen.Plugins)
 
 set nerdtree
 set easymotion
