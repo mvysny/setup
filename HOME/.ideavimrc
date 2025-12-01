@@ -28,6 +28,7 @@ nmap <leader>gg <Action>(Tool_External Tools_lazygit)
 nmap <leader><leader> <Action>(GotoFile)
 nmap <C-/> <Action>(ActivateTerminalToolWindow)
 nmap <leader>bd <Action>(CloseEditor)
+nmap <leader>bo <Action>(CloseAllEditors)
 nmap <leader>sS <Action>(GotoSymbol)
 imap <C-s> <Esc>:w<CR>
 nmap <leader>sk <Action>(GotoAction)
