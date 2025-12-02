@@ -45,6 +45,7 @@ nmap [w <Action>(GotoPreviousError)
 nmap ]d <Action>(GotoNextError)
 nmap ]d <Action>(GotoNextError)
 nmap <leader>ca <Action>(ShowIntentionActions)
+nmap <leader>cA <Action>(Generate)
 nmap <leader>qS <Action>(RecentProjectListGroup)
 nmap <leader>e <Action>(ActivateProjectToolWindow)
 nmap <leader>sc <Action>(GotoClass)
@@ -60,6 +61,8 @@ nmap <leader>cxm <Action>(ExtractFunction)
 vmap <leader>cxm <Action>(ExtractFunction)
 nmap <leader>cxc <Action>(IntroduceConstant)
 vmap <leader>cxc <Action>(IntroduceConstant)
+nmap <leader>co <Action>(OptimizeImports)
+nmap gr <Action>(FindUsages)
 
 set nerdtree
 set easymotion
