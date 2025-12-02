@@ -54,6 +54,12 @@ nmap <leader>sT <Action>(ActivateTODOToolWindow)
 nmap <leader>gI <Action>(GotoImplementation)
 vmap gc <Action>(CommentByLineComment)
 nmap gc <Action>(CommentByLineComment)
+nmap <leader>cxv <Action>(IntroduceVariable)
+vmap <leader>cxv <Action>(IntroduceVariable)
+nmap <leader>cxm <Action>(ExtractFunction)
+vmap <leader>cxm <Action>(ExtractFunction)
+nmap <leader>cxc <Action>(IntroduceConstant)
+vmap <leader>cxc <Action>(IntroduceConstant)
 
 set nerdtree
 set easymotion
