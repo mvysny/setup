@@ -30,6 +30,7 @@ nmap <C-/> <Action>(ActivateTerminalToolWindow)
 nmap <leader>bd <Action>(CloseEditor)
 nmap <leader>bo <Action>(CloseAllEditors)
 nmap <leader>sS <Action>(GotoSymbol)
+nmap <leader>ss <Action>(FileStructurePopup)
 imap <C-s> <Esc>:w<CR>
 nmap <leader>sk <Action>(GotoAction)
 nmap <leader>/ <Action>(FindInPath)
