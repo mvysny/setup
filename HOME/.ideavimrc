@@ -21,6 +21,7 @@ Plug 'easymotion/vim-easymotion'
 
 set number relativenumber
 set ideajoin
+set clipboard+=unnamed
 
 let mapleader = " "
 
