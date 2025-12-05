@@ -36,6 +36,7 @@ imap <C-s> <Esc>:w<CR>
 nmap <leader>sk <Action>(GotoAction)
 nmap <leader>/ <Action>(FindInPath)
 nmap <leader>cf <Action>(ReformatCode)
+vmap <leader>cf <Action>(ReformatCode)
 nmap <leader>cr <Action>(RenameElement)
 nmap <leader>qq <Action>(Exit)
 nmap <leader>` <Action>(RecentFiles)
